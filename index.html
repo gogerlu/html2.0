@@ -4,21 +4,40 @@
     <meta charset="utf-8" />
     <title>韓團大集合</title>
     <style>
- 
+      
+      .hidden {
+            display: none;
+        }
+
       .box {
             border: 5px dotted #9d8189;
             margin: 10px;
             
-        }
+        } 
         .fox {
             border: 5px dashed #0c0c0c;
             margin: 10px;
         }
         </style>
+        <script>
+          function playScaryVideo() {
+              var video = document.getElementById('scaryVideo');
+              video.play();
+              video.classList.remove('hidden');
+          }
+      </script>
+        
   </head>
   <div class="section1">
   <body bgcolor="#ffc0cb">
+   
+    <a href="#" onclick="playScaryVideo()">進來</a>
     
+    <video id="scaryVideo" class="hidden" width="600" height="700" controls>
+        <source src="Untitled.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
     <div class="box">
     <header><h1 id="top" style="color: blue;"><font face="harlow solid" sizw="10">K-pop Introduction</font></h1></header></div>
     <a href="#bottom" style="color: black;">去釘書機</a>
@@ -252,6 +271,20 @@ alt="娜璉(Nayeon)" width="200"></figure></li>
               <iframe width="560" height="315" src="https://www.youtube.com/embed/61VJMxh-cM8?si=GghC-VLkCrDdkiTz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               <br>
               <br>
+              <figure><figcaption>兔瓦斯</figcaption>
+                <img src="twice2.0.png" usemap="#mymap">
+                <map name="mymap">
+                  <area shape="rect" coords="34,36,102,124" href="https://zh.wikipedia.org/zh-tw/Sana_(TWICE)">
+                  <area shape="circle" coords="154,229,24" href="https://zh.wikipedia.org/zh-tw/%E5%AE%9A%E5%BB%B6">
+                  <area shape="poly" coords="149,38,149,132,225,132" href="https://zh.wikipedia.org/zh-tw/%E5%91%A8%E5%AD%90%E7%91%9C">
+                  </map>
+                  </figure>
+                  <br>
+                  <br>
+                  <figure><figcaption><h2>藤原</h2></figcaption>
+                    <img src="https://media1.tenor.com/m/yb2HmSFfmegAAAAC/chika-kaguya-sama-love-is-war.gif"
+   width="200">
+</figure>
                 <input type="text" placeholder="請輸入帳號"/>
                 <br>
                 <br>
